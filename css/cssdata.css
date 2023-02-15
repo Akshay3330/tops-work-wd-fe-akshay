@@ -1,8 +1,12 @@
 h2{
     color: darkgoldenrod;
-    background-color: black;
+    background-color: rgb(207, 43, 43);
 }
 p{
     color: brown;
-    background-color: gold;
+    background-color: gold;  
+}
+div{
+    color: blueviolet;
+    background-color: black;
 }

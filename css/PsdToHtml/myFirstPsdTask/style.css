@@ -1,0 +1,183 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Dela Gothic One";
+    /* border: solid black; */
+}
+.container{
+   background-image: linear-gradient(135deg, #132b61 0%, #7be7c5 100%);
+   padding: 35px 50px;
+   height: 100vh;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+
+}
+.navleft{
+display: flex;
+width: 100%;
+align-items:center;
+
+
+}
+
+.logogradient{
+    height: 80px;
+    width: 80px;
+    background-image: linear-gradient(135deg, #374d70 0%, #233161 100%);
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.logowrap{
+    height: 55px;
+    width: 55px;
+    cursor: pointer;
+}
+.logowrap img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.menu{
+ width: 100%;
+ 
+}
+.menu ul{
+    padding: 0 30px;
+}
+.menu ul a {
+  color: #ffffff;
+    /* color: rgb(209, 66, 66); */
+    margin: 4%;
+    text-decoration: none;
+    font-size: 18px;
+    
+    
+}
+.navright{
+    display: flex;
+}
+.searchwrap{
+    display: flex;
+}
+.searchwrap i{
+    padding: 10px;
+}
+.loginbutton{
+    padding-left: 20px;
+}
+
+
+.loginbutton button {
+    position: relative;
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: 0.5s;
+    overflow: hidden;
+    padding: 10px;
+    height: 40px;
+    width: 200px;
+    border: none;
+    border-radius: 25px;
+    font-size: 16px;
+    background-image: linear-gradient(240deg, #2b3d66 0%, #271e39 100%);
+  }
+  
+  .content{
+  padding: 50px 0 20px 0;
+  }
+  .content h1{
+  /* font-size: 36px; */
+    color: #f3ff36;
+    font-weight: 700;
+    font-family:'Times New Roman', Times, serif;
+    /* padding-left: 15px; */
+  /* padding-top: 50px; */
+  font-size: 50px;
+  }
+  .per{
+    font-size: 29px;
+color: #ffffff;
+font-weight: 500;
+/* font-family: "Montserrat"; */
+padding: 20px 0 20px 0;
+
+  }
+.rectangle{
+  width: 320px;
+  height: 500px;
+  border-radius: 388px;
+  background-image: linear-gradient(-25deg, #271e39 0%, #223060 100%);
+  /* position: absolute;
+  top: 118px;
+  left: 900px; */
+}
+.female{
+  height: 500px;
+  width: auto;
+  /* top: 120px; */
+  position: absolute;
+}
+.female img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 388px;
+}
+.buttonPArt{
+  display: flex;
+  gap: 50px;
+  padding: 20px 0;
+}
+.discount{
+  color:white;
+  height: 50px;
+  width: 241px;
+  background-image: linear-gradient(135deg, #374d70 0%, #233161 100%);
+  border-radius: 50px;
+  /* display: flex; */
+  /* justify-content: center; */
+  /* align-items: center; */
+  /* text-decoration: none; */
+  border: none;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 25px;
+}
+.Catalogue{
+  color: white;
+ background: transparent;
+  height: 50px;
+  width: 241px;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  /* position:relative; */
+  /* left: 350px; */
+  /* bottom: 85px; */
+  text-decoration: none;
+  font-size: 25px;
+  border:solid white;
+}
+
+.landingPage{
+  width: 100%;
+  display: flex;
+}
+
+.leftSidde{
+width: 50%;
+
+}
+.rightSide{
+width: 50%;
+display: flex;
+justify-content: flex-end;
+}

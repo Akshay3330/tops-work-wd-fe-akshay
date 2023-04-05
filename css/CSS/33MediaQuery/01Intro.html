@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        abbr {
+            color: chocolate;
+        }
+
+        @media (hover: hover) {
+            abbr:hover {
+                color: limegreen;
+                transition-duration: 1s;
+            }
+        }
+
+        @media not all and (hover: hover) {
+            abbr::after {
+                content: ' (' attr(title) ')';
+            }
+        }
+        @media print {
+            body {
+              font-size: 10pt;
+              color: red;
+            }
+          }
+    </style>
+</head>
+
+<body>
+
+    <img src="mediaQuery.png" alt="">
+    <img src="css-media-query.png" alt="">
+    <pre>
+        abbr {
+            color: chocolate;
+        }
+        
+        @media (hover: hover) {
+            abbr:hover {
+                color: limegreen;
+                transition-duration: 1s;
+            }
+        }
+        
+        @media not all and (hover: hover) {
+            abbr::after {
+                content: ' (' attr(title) ')';
+            }
+        }
+        
+
+
+        @media print {
+            body {
+              font-size: 10pt;
+            }
+          }
+          
+          @media screen {
+            body {
+              font-size: 13px;
+            }
+          }
+          
+          @media screen, print {
+            body {
+              line-height: 1.2;
+            }
+          }
+          
+          @media only screen and (min-width: 320px) and (max-width: 480px) and (resolution: 150dpi) {
+            body {
+              line-height: 1.4;
+            }
+          }
+
+
+          @media screen and (min-width: 600px) {
+            .element {
+              /* Apply some styles */
+            }
+          }
+
+          @media screen and (max-width: 600px) {
+            .element {
+              /* Apply some styles */
+            }
+          }
+
+          @media (min-width: 30em) and (max-width: 80em) {
+            body {
+              background-color: purple;
+            }
+          }
+
+
+        // X-Small devices (portrait phones, less than 576px)
+        // No media query for `xs` since this is the default in Bootstrap
+
+        // Small devices (landscape phones, 576px and up)
+        @media (min-width: 576px) { ... }
+
+        // Medium devices (tablets, 768px and up)
+        @media (min-width: 768px) { ... }
+
+        // Large devices (desktops, 992px and up)
+        @media (min-width: 992px) { ... }
+
+        // X-Large devices (large desktops, 1200px and up)
+        @media (min-width: 1200px) { ... }
+
+        // XX-Large devices (larger desktops, 1400px and up)
+        @media (min-width: 1400px) { ... }
+    </pre>
+    <p><abbr title="National Aeronautics and Space Administration">NASA</abbr> is a U.S. government agency that is responsible for science and technology related to air and space.</p>
+
+</body>
+
+</html>
